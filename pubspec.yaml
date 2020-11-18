@@ -1,0 +1,24 @@
+name: progress_indicator_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+
+  # download file
+  http: ^0.12.2
+
+  # save file
+  path_provider: ^1.6.24
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
